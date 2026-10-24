@@ -1,0 +1,37 @@
+# GDB 12.1 source and archive
+/gdb-12.1/
+/gdb-12.1.tar.xz
+
+# GDB server build artifacts
+/gdbserver_build/
+
+# Root filesystem build directory
+/rootfs/
+
+# Backup and temporary files
+/output/*.bak
+*.tmp
+*.swp
+*~
+
+# Profiling intermediate data
+/apps/*.data
+/apps/*.data.old
+/apps/perf_folded.txt
+/apps/perf_out.txt
+/logs/perf.data
+/logs/perf.data.old
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Empty output files; regenerate before publishing if required
+/logs/hist_standard.txt
+/logs/latency_histogram.png
+
+# Downloaded gdbserver Debian package; keep the custom-built binary in apps/
+/output/gdbserver_armhf/
+
+# Downloaded Debian package; keep only the custom-built gdbserver in apps/
+/output/gdbserver_armhf/

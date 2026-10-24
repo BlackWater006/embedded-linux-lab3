@@ -1,0 +1,31 @@
+./perf_target: Segmentation fault
+
+ Performance counter stats for './perf_target':
+
+                 3      context-switches                 #    122.1 cs/sec  cs_per_second     
+                 1      cpu-migrations                   #     40.7 migrations/sec  migrations_per_second
+               376      page-faults                      #  15302.3 faults/sec  page_faults_per_second
+             24.57 msec task-clock                       #      0.2 CPUs  CPUs_utilized       
+             5,629      cpu_core/branch-misses/          #      0.0 %  branch_miss_rate         (51.59%)
+        75,941,152      cpu_core/branches/               #   3090.6 M/sec  branch_frequency     (51.59%)
+       108,752,215      cpu_core/cpu-cycles/             #      4.4 GHz  cycles_frequency       (51.59%)
+       554,141,648      cpu_core/instructions/           #      5.1 instructions  insn_per_cycle  (51.59%)
+            35,073      cpu_atom/branch-misses/          #      0.1 %  branch_miss_rate         (23.49%)
+        25,875,741      cpu_atom/branches/               #   1053.1 M/sec  branch_frequency     (27.56%)
+        68,725,595      cpu_atom/cpu-cycles/             #      2.8 GHz  cycles_frequency       (28.07%)
+       175,440,766      cpu_atom/instructions/           #      2.7 instructions  insn_per_cycle  (28.07%)
+             TopdownL1 (cpu_core)                        #      0.0 %  tma_bad_speculation    
+                                                         #      5.1 %  tma_frontend_bound       (51.59%)
+                                                         #      8.2 %  tma_backend_bound      
+                                                         #     86.7 %  tma_retiring             (51.59%)
+             TopdownL1 (cpu_atom)                        #     35.3 %  tma_backend_bound        (24.92%)
+                                                         #      2.4 %  tma_frontend_bound       (24.41%)
+                                                         #     -0.7 %  tma_bad_speculation    
+                                                         #     63.0 %  tma_retiring             (24.41%)
+
+       0.098313460 seconds time elapsed
+
+       0.023592000 seconds user
+       0.002051000 seconds sys
+
+

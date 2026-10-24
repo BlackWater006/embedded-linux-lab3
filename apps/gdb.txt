@@ -1,0 +1,15 @@
+Remote debugging using 127.0.0.1:1234
+[remote] start_remote_1: enter
+  [remote] Sending packet: $qSupported:swbreak+;hwbreak+;qRelocInsn+;fork-events+;vfork-events+;exec-events+;vContSupported+;QThreadEvents+;QThreadOptions+;no-resumed+;memory-tagging+;xmlRegisters=i386;error-message+#84
+  [remote] Sending packet: $qSupported:swbreak+;hwbreak+;qRelocInsn+;fork-events+;vfork-events+;exec-events+;vContSupported+;QThreadEvents+;QThreadOptions+;no-resumed+;memory-tagging+;xmlRegisters=i386;error-message+#84
+  [remote] Sending packet: $qSupported:swbreak+;hwbreak+;qRelocInsn+;fork-events+;vfork-events+;exec-events+;vContSupported+;QThreadEvents+;QThreadOptions+;no-resumed+;memory-tagging+;xmlRegisters=i386;error-message+#84
+  [remote] Sending packet: $qSupported:swbreak+;hwbreak+;qRelocInsn+;fork-events+;vfork-events+;exec-events+;vContSupported+;QThreadEvents+;QThreadOptions+;no-resumed+;memory-tagging+;xmlRegisters=i386;error-message+#84
+  [remote] getpkt: Timed out.
+  [remote] getpkt: Timed out.
+  [remote] getpkt: Timed out.
+Ignoring packet error, continuing...
+  [remote] packet_ok: Packet qSupported (supported-packets) is supported
+⚠️ warning: unrecognized item "timeout" in "qSupported" response
+  [remote] Sending packet: $vCont?#49
+[remote] start_remote_1: exit
+❌️ Remote communication error.  Target disconnected: error while reading: Connection reset by peer.
